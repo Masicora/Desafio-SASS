@@ -5085,67 +5085,67 @@ fieldset:disabled .btn {
   border-radius: var(--bs-card-border-radius);
 }
 
-/* line 38, ../Desafio SASS/Desafio-SASS/bootstrap-5.2.0-beta1/scss/_card.scss */
+/* line 39, ../Desafio SASS/Desafio-SASS/bootstrap-5.2.0-beta1/scss/_card.scss */
 .card > hr {
   margin-right: 0;
   margin-left: 0;
 }
 
-/* line 43, ../Desafio SASS/Desafio-SASS/bootstrap-5.2.0-beta1/scss/_card.scss */
+/* line 44, ../Desafio SASS/Desafio-SASS/bootstrap-5.2.0-beta1/scss/_card.scss */
 .card > .list-group {
   border-top: inherit;
   border-bottom: inherit;
 }
 
-/* line 47, ../Desafio SASS/Desafio-SASS/bootstrap-5.2.0-beta1/scss/_card.scss */
+/* line 48, ../Desafio SASS/Desafio-SASS/bootstrap-5.2.0-beta1/scss/_card.scss */
 .card > .list-group:first-child {
   border-top-width: 0;
   border-top-left-radius: var(--bs-card-inner-border-radius);
   border-top-right-radius: var(--bs-card-inner-border-radius);
 }
 
-/* line 52, ../Desafio SASS/Desafio-SASS/bootstrap-5.2.0-beta1/scss/_card.scss */
+/* line 53, ../Desafio SASS/Desafio-SASS/bootstrap-5.2.0-beta1/scss/_card.scss */
 .card > .list-group:last-child {
   border-bottom-width: 0;
   border-bottom-right-radius: var(--bs-card-inner-border-radius);
   border-bottom-left-radius: var(--bs-card-inner-border-radius);
 }
 
-/* line 60, ../Desafio SASS/Desafio-SASS/bootstrap-5.2.0-beta1/scss/_card.scss */
+/* line 61, ../Desafio SASS/Desafio-SASS/bootstrap-5.2.0-beta1/scss/_card.scss */
 .card > .card-header + .list-group,
 .card > .list-group + .card-footer {
   border-top: 0;
 }
 
-/* line 66, ../Desafio SASS/Desafio-SASS/bootstrap-5.2.0-beta1/scss/_card.scss */
+/* line 67, ../Desafio SASS/Desafio-SASS/bootstrap-5.2.0-beta1/scss/_card.scss */
 .card-body {
   flex: 1 1 auto;
   padding: var(--bs-card-spacer-y) var(--bs-card-spacer-x);
   color: var(--bs-card-color);
 }
 
-/* line 74, ../Desafio SASS/Desafio-SASS/bootstrap-5.2.0-beta1/scss/_card.scss */
+/* line 75, ../Desafio SASS/Desafio-SASS/bootstrap-5.2.0-beta1/scss/_card.scss */
 .card-title {
   margin-bottom: var(--bs-card-title-spacer-y);
 }
 
-/* line 78, ../Desafio SASS/Desafio-SASS/bootstrap-5.2.0-beta1/scss/_card.scss */
+/* line 79, ../Desafio SASS/Desafio-SASS/bootstrap-5.2.0-beta1/scss/_card.scss */
 .card-subtitle {
   margin-top: calc(-.5 * var(--bs-card-title-spacer-y));
   margin-bottom: 0;
 }
 
-/* line 83, ../Desafio SASS/Desafio-SASS/bootstrap-5.2.0-beta1/scss/_card.scss */
+/* line 84, ../Desafio SASS/Desafio-SASS/bootstrap-5.2.0-beta1/scss/_card.scss */
 .card-text:last-child {
   margin-bottom: 0;
 }
 
-/* line 92, ../Desafio SASS/Desafio-SASS/bootstrap-5.2.0-beta1/scss/_card.scss */
+/* line 93, ../Desafio SASS/Desafio-SASS/bootstrap-5.2.0-beta1/scss/_card.scss */
 .card-link + .card-link {
   margin-left: var(--bs-card-spacer-x);
 }
 
-/* line 101, ../Desafio SASS/Desafio-SASS/bootstrap-5.2.0-beta1/scss/_card.scss */
+/* line 102, ../Desafio SASS/Desafio-SASS/bootstrap-5.2.0-beta1/scss/_card.scss */
 .card-header {
   padding: var(--bs-card-cap-padding-y) var(--bs-card-cap-padding-x);
   margin-bottom: 0;
@@ -5154,12 +5154,12 @@ fieldset:disabled .btn {
   border-bottom: var(--bs-card-border-width) solid var(--bs-card-border-color);
 }
 
-/* line 108, ../Desafio SASS/Desafio-SASS/bootstrap-5.2.0-beta1/scss/_card.scss */
+/* line 109, ../Desafio SASS/Desafio-SASS/bootstrap-5.2.0-beta1/scss/_card.scss */
 .card-header:first-child {
   border-radius: var(--bs-card-inner-border-radius) var(--bs-card-inner-border-radius) 0 0;
 }
 
-/* line 113, ../Desafio SASS/Desafio-SASS/bootstrap-5.2.0-beta1/scss/_card.scss */
+/* line 114, ../Desafio SASS/Desafio-SASS/bootstrap-5.2.0-beta1/scss/_card.scss */
 .card-footer {
   padding: var(--bs-card-cap-padding-y) var(--bs-card-cap-padding-x);
   color: var(--bs-card-cap-color);
@@ -5167,12 +5167,12 @@ fieldset:disabled .btn {
   border-top: var(--bs-card-border-width) solid var(--bs-card-border-color);
 }
 
-/* line 119, ../Desafio SASS/Desafio-SASS/bootstrap-5.2.0-beta1/scss/_card.scss */
+/* line 120, ../Desafio SASS/Desafio-SASS/bootstrap-5.2.0-beta1/scss/_card.scss */
 .card-footer:last-child {
   border-radius: 0 0 var(--bs-card-inner-border-radius) var(--bs-card-inner-border-radius);
 }
 
-/* line 129, ../Desafio SASS/Desafio-SASS/bootstrap-5.2.0-beta1/scss/_card.scss */
+/* line 130, ../Desafio SASS/Desafio-SASS/bootstrap-5.2.0-beta1/scss/_card.scss */
 .card-header-tabs {
   margin-right: calc(-.5 * var(--bs-card-cap-padding-x));
   margin-bottom: calc(-1 * var(--bs-card-cap-padding-y));
@@ -5180,19 +5180,19 @@ fieldset:disabled .btn {
   border-bottom: 0;
 }
 
-/* line 135, ../Desafio SASS/Desafio-SASS/bootstrap-5.2.0-beta1/scss/_card.scss */
+/* line 136, ../Desafio SASS/Desafio-SASS/bootstrap-5.2.0-beta1/scss/_card.scss */
 .card-header-tabs .nav-link.active {
   background-color: var(--bs-card-bg);
   border-bottom-color: var(--bs-card-bg);
 }
 
-/* line 141, ../Desafio SASS/Desafio-SASS/bootstrap-5.2.0-beta1/scss/_card.scss */
+/* line 142, ../Desafio SASS/Desafio-SASS/bootstrap-5.2.0-beta1/scss/_card.scss */
 .card-header-pills {
   margin-right: calc(-.5 * var(--bs-card-cap-padding-x));
   margin-left: calc(-.5 * var(--bs-card-cap-padding-x));
 }
 
-/* line 147, ../Desafio SASS/Desafio-SASS/bootstrap-5.2.0-beta1/scss/_card.scss */
+/* line 148, ../Desafio SASS/Desafio-SASS/bootstrap-5.2.0-beta1/scss/_card.scss */
 .card-img-overlay {
   position: absolute;
   top: 0;
@@ -5203,74 +5203,74 @@ fieldset:disabled .btn {
   border-radius: var(--bs-card-inner-border-radius);
 }
 
-/* line 157, ../Desafio SASS/Desafio-SASS/bootstrap-5.2.0-beta1/scss/_card.scss */
+/* line 158, ../Desafio SASS/Desafio-SASS/bootstrap-5.2.0-beta1/scss/_card.scss */
 .card-img,
 .card-img-top,
 .card-img-bottom {
   width: 100%;
 }
 
-/* line 163, ../Desafio SASS/Desafio-SASS/bootstrap-5.2.0-beta1/scss/_card.scss */
+/* line 164, ../Desafio SASS/Desafio-SASS/bootstrap-5.2.0-beta1/scss/_card.scss */
 .card-img,
 .card-img-top {
   border-top-left-radius: var(--bs-card-inner-border-radius);
   border-top-right-radius: var(--bs-card-inner-border-radius);
 }
 
-/* line 168, ../Desafio SASS/Desafio-SASS/bootstrap-5.2.0-beta1/scss/_card.scss */
+/* line 169, ../Desafio SASS/Desafio-SASS/bootstrap-5.2.0-beta1/scss/_card.scss */
 .card-img,
 .card-img-bottom {
   border-bottom-right-radius: var(--bs-card-inner-border-radius);
   border-bottom-left-radius: var(--bs-card-inner-border-radius);
 }
 
-/* line 181, ../Desafio SASS/Desafio-SASS/bootstrap-5.2.0-beta1/scss/_card.scss */
+/* line 183, ../Desafio SASS/Desafio-SASS/bootstrap-5.2.0-beta1/scss/_card.scss */
 .card-group > .card {
   margin-bottom: var(--bs-card-group-margin);
 }
 
 @media (min-width: 576px) {
-  /* line 178, ../Desafio SASS/Desafio-SASS/bootstrap-5.2.0-beta1/scss/_card.scss */
+  /* line 179, ../Desafio SASS/Desafio-SASS/bootstrap-5.2.0-beta1/scss/_card.scss */
   .card-group {
     display: flex;
     flex-flow: row wrap;
   }
-  /* line 190, ../Desafio SASS/Desafio-SASS/bootstrap-5.2.0-beta1/scss/_card.scss */
+  /* line 193, ../Desafio SASS/Desafio-SASS/bootstrap-5.2.0-beta1/scss/_card.scss */
   .card-group > .card {
     flex: 1 0 0%;
     margin-bottom: 0;
   }
-  /* line 195, ../Desafio SASS/Desafio-SASS/bootstrap-5.2.0-beta1/scss/_card.scss */
+  /* line 198, ../Desafio SASS/Desafio-SASS/bootstrap-5.2.0-beta1/scss/_card.scss */
   .card-group > .card + .card {
     margin-left: 0;
     border-left: 0;
   }
-  /* line 202, ../Desafio SASS/Desafio-SASS/bootstrap-5.2.0-beta1/scss/_card.scss */
+  /* line 205, ../Desafio SASS/Desafio-SASS/bootstrap-5.2.0-beta1/scss/_card.scss */
   .card-group > .card:not(:last-child) {
     border-top-right-radius: 0;
     border-bottom-right-radius: 0;
   }
-  /* line 205, ../Desafio SASS/Desafio-SASS/bootstrap-5.2.0-beta1/scss/_card.scss */
+  /* line 208, ../Desafio SASS/Desafio-SASS/bootstrap-5.2.0-beta1/scss/_card.scss */
   .card-group > .card:not(:last-child) .card-img-top,
   .card-group > .card:not(:last-child) .card-header {
     border-top-right-radius: 0;
   }
-  /* line 210, ../Desafio SASS/Desafio-SASS/bootstrap-5.2.0-beta1/scss/_card.scss */
+  /* line 214, ../Desafio SASS/Desafio-SASS/bootstrap-5.2.0-beta1/scss/_card.scss */
   .card-group > .card:not(:last-child) .card-img-bottom,
   .card-group > .card:not(:last-child) .card-footer {
     border-bottom-right-radius: 0;
   }
-  /* line 217, ../Desafio SASS/Desafio-SASS/bootstrap-5.2.0-beta1/scss/_card.scss */
+  /* line 221, ../Desafio SASS/Desafio-SASS/bootstrap-5.2.0-beta1/scss/_card.scss */
   .card-group > .card:not(:first-child) {
     border-top-left-radius: 0;
     border-bottom-left-radius: 0;
   }
-  /* line 220, ../Desafio SASS/Desafio-SASS/bootstrap-5.2.0-beta1/scss/_card.scss */
+  /* line 224, ../Desafio SASS/Desafio-SASS/bootstrap-5.2.0-beta1/scss/_card.scss */
   .card-group > .card:not(:first-child) .card-img-top,
   .card-group > .card:not(:first-child) .card-header {
     border-top-left-radius: 0;
   }
-  /* line 225, ../Desafio SASS/Desafio-SASS/bootstrap-5.2.0-beta1/scss/_card.scss */
+  /* line 230, ../Desafio SASS/Desafio-SASS/bootstrap-5.2.0-beta1/scss/_card.scss */
   .card-group > .card:not(:first-child) .card-img-bottom,
   .card-group > .card:not(:first-child) .card-footer {
     border-bottom-left-radius: 0;
@@ -9881,7 +9881,7 @@ fieldset:disabled .btn {
 }
 
 /* line 67, ../Desafio SASS/Desafio-SASS/bootstrap-5.2.0-beta1/scss/mixins/_utilities.scss */
-.text-light {
+.text-light, .card {
   --bs-text-opacity: 1;
   color: rgba(var(--bs-light-rgb), var(--bs-text-opacity)) !important;
 }
@@ -10003,7 +10003,7 @@ fieldset:disabled .btn {
 }
 
 /* line 67, ../Desafio SASS/Desafio-SASS/bootstrap-5.2.0-beta1/scss/mixins/_utilities.scss */
-.bg-dark {
+.bg-dark, .card {
   --bs-bg-opacity: 1;
   background-color: rgba(var(--bs-dark-rgb), var(--bs-bg-opacity)) !important;
 }
