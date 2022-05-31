@@ -4,6 +4,7 @@
  * Copyright 2011-2022 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&family=Smooch&display=swap");
 /* line 3, ../Desafio SASS/Desafio-SASS/bootstrap-5.2.0-beta1/scss/mixins/_clearfix.scss */
 .clearfix::after {
   display: block;
