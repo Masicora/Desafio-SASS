@@ -31,7 +31,7 @@
   --bs-gray-800: #343a40;
   --bs-gray-900: #212529;
   --bs-primary: #0d6efd;
-  --bs-purple: #6f42c1;
+  --bs-purplesass: #cf649a;
   --bs-secondary: #6c757d;
   --bs-success: #198754;
   --bs-info: #0dcaf0;
@@ -40,7 +40,7 @@
   --bs-light: #f8f9fa;
   --bs-dark: #212529;
   --bs-primary-rgb: 13, 110, 253;
-  --bs-purple-rgb: 111, 66, 193;
+  --bs-purplesass-rgb: 207, 100, 154;
   --bs-secondary-rgb: 108, 117, 125;
   --bs-success-rgb: 25, 135, 84;
   --bs-info-rgb: 13, 202, 240;
@@ -3485,21 +3485,21 @@ fieldset:disabled .btn {
 }
 
 /* line 107, ../Desafio SASS/Desafio-SASS/bootstrap-5.2.0-beta1/scss/_buttons.scss */
-.btn-purple {
-  --bs-btn-color: #fff;
-  --bs-btn-bg: #6f42c1;
-  --bs-btn-border-color: #6f42c1;
-  --bs-btn-hover-color: #fff;
-  --bs-btn-hover-bg: #5e38a4;
-  --bs-btn-hover-border-color: #59359a;
-  --bs-btn-focus-shadow-rgb: 133, 94, 202;
-  --bs-btn-active-color: #fff;
-  --bs-btn-active-bg: #59359a;
-  --bs-btn-active-border-color: #533291;
+.btn-purplesass {
+  --bs-btn-color: #000;
+  --bs-btn-bg: #cf649a;
+  --bs-btn-border-color: #cf649a;
+  --bs-btn-hover-color: #000;
+  --bs-btn-hover-bg: #d67ba9;
+  --bs-btn-hover-border-color: #d474a4;
+  --bs-btn-focus-shadow-rgb: 176, 85, 131;
+  --bs-btn-active-color: #000;
+  --bs-btn-active-bg: #d983ae;
+  --bs-btn-active-border-color: #d474a4;
   --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
-  --bs-btn-disabled-color: #fff;
-  --bs-btn-disabled-bg: #6f42c1;
-  --bs-btn-disabled-border-color: #6f42c1;
+  --bs-btn-disabled-color: #000;
+  --bs-btn-disabled-bg: #cf649a;
+  --bs-btn-disabled-border-color: #cf649a;
 }
 
 /* line 107, ../Desafio SASS/Desafio-SASS/bootstrap-5.2.0-beta1/scss/_buttons.scss */
@@ -3646,18 +3646,18 @@ fieldset:disabled .btn {
 }
 
 /* line 113, ../Desafio SASS/Desafio-SASS/bootstrap-5.2.0-beta1/scss/_buttons.scss */
-.btn-outline-purple {
-  --bs-btn-color: #6f42c1;
-  --bs-btn-border-color: #6f42c1;
-  --bs-btn-hover-color: #fff;
-  --bs-btn-hover-bg: #6f42c1;
-  --bs-btn-hover-border-color: #6f42c1;
-  --bs-btn-focus-shadow-rgb: 111, 66, 193;
-  --bs-btn-active-color: #fff;
-  --bs-btn-active-bg: #6f42c1;
-  --bs-btn-active-border-color: #6f42c1;
+.btn-outline-purplesass {
+  --bs-btn-color: #cf649a;
+  --bs-btn-border-color: #cf649a;
+  --bs-btn-hover-color: #000;
+  --bs-btn-hover-bg: #cf649a;
+  --bs-btn-hover-border-color: #cf649a;
+  --bs-btn-focus-shadow-rgb: 207, 100, 154;
+  --bs-btn-active-color: #000;
+  --bs-btn-active-bg: #cf649a;
+  --bs-btn-active-border-color: #cf649a;
   --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
-  --bs-btn-disabled-color: #6f42c1;
+  --bs-btn-disabled-color: #cf649a;
   --bs-btn-disabled-bg: transparent;
   --bs-gradient: none;
 }
@@ -5693,15 +5693,15 @@ fieldset:disabled .btn {
 }
 
 /* line 67, ../Desafio SASS/Desafio-SASS/bootstrap-5.2.0-beta1/scss/_alert.scss */
-.alert-purple {
-  --bs-alert-color: #432874;
-  --bs-alert-bg: #e2d9f3;
-  --bs-alert-border-color: #d4c6ec;
+.alert-purplesass {
+  --bs-alert-color: #7c3c5c;
+  --bs-alert-bg: #f5e0eb;
+  --bs-alert-border-color: #f1d1e1;
 }
 
 /* line 11, ../Desafio SASS/Desafio-SASS/bootstrap-5.2.0-beta1/scss/mixins/_alert.scss */
-.alert-purple .alert-link {
-  color: #36205d;
+.alert-purplesass .alert-link {
+  color: #63304a;
 }
 
 /* line 67, ../Desafio SASS/Desafio-SASS/bootstrap-5.2.0-beta1/scss/_alert.scss */
@@ -6182,22 +6182,22 @@ fieldset:disabled .btn {
 }
 
 /* line 5, ../Desafio SASS/Desafio-SASS/bootstrap-5.2.0-beta1/scss/mixins/_list-group.scss */
-.list-group-item-purple {
-  color: #432874;
-  background-color: #e2d9f3;
+.list-group-item-purplesass {
+  color: #7c3c5c;
+  background-color: #f5e0eb;
 }
 
 /* line 10, ../Desafio SASS/Desafio-SASS/bootstrap-5.2.0-beta1/scss/mixins/_list-group.scss */
-.list-group-item-purple.list-group-item-action:hover, .list-group-item-purple.list-group-item-action:focus {
-  color: #432874;
-  background-color: #cbc3db;
+.list-group-item-purplesass.list-group-item-action:hover, .list-group-item-purplesass.list-group-item-action:focus {
+  color: #7c3c5c;
+  background-color: #ddcad4;
 }
 
 /* line 16, ../Desafio SASS/Desafio-SASS/bootstrap-5.2.0-beta1/scss/mixins/_list-group.scss */
-.list-group-item-purple.list-group-item-action.active {
+.list-group-item-purplesass.list-group-item-action.active {
   color: #fff;
-  background-color: #432874;
-  border-color: #432874;
+  background-color: #7c3c5c;
+  border-color: #7c3c5c;
 }
 
 /* line 5, ../Desafio SASS/Desafio-SASS/bootstrap-5.2.0-beta1/scss/mixins/_list-group.scss */
@@ -8111,9 +8111,9 @@ fieldset:disabled .btn {
 }
 
 /* line 6, ../Desafio SASS/Desafio-SASS/bootstrap-5.2.0-beta1/scss/helpers/_color-bg.scss */
-.text-bg-purple {
-  color: #fff !important;
-  background-color: RGBA(111, 66, 193, var(--bs-bg-opacity, 1)) !important;
+.text-bg-purplesass {
+  color: #000 !important;
+  background-color: RGBA(207, 100, 154, var(--bs-bg-opacity, 1)) !important;
 }
 
 /* line 6, ../Desafio SASS/Desafio-SASS/bootstrap-5.2.0-beta1/scss/helpers/_color-bg.scss */
@@ -8169,13 +8169,13 @@ fieldset:disabled .btn {
 }
 
 /* line 2, ../Desafio SASS/Desafio-SASS/bootstrap-5.2.0-beta1/scss/helpers/_colored-links.scss */
-.link-purple {
-  color: #6f42c1 !important;
+.link-purplesass {
+  color: #cf649a !important;
 }
 
 /* line 6, ../Desafio SASS/Desafio-SASS/bootstrap-5.2.0-beta1/scss/helpers/_colored-links.scss */
-.link-purple:hover, .link-purple:focus {
-  color: #59359a !important;
+.link-purplesass:hover, .link-purplesass:focus {
+  color: #d983ae !important;
 }
 
 /* line 2, ../Desafio SASS/Desafio-SASS/bootstrap-5.2.0-beta1/scss/helpers/_colored-links.scss */
@@ -8772,9 +8772,9 @@ fieldset:disabled .btn {
 }
 
 /* line 67, ../Desafio SASS/Desafio-SASS/bootstrap-5.2.0-beta1/scss/mixins/_utilities.scss */
-.border-purple {
+.border-purplesass {
   --bs-border-opacity: 1;
-  border-color: rgba(var(--bs-purple-rgb), var(--bs-border-opacity)) !important;
+  border-color: rgba(var(--bs-purplesass-rgb), var(--bs-border-opacity)) !important;
 }
 
 /* line 67, ../Desafio SASS/Desafio-SASS/bootstrap-5.2.0-beta1/scss/mixins/_utilities.scss */
@@ -9846,9 +9846,9 @@ fieldset:disabled .btn {
 }
 
 /* line 67, ../Desafio SASS/Desafio-SASS/bootstrap-5.2.0-beta1/scss/mixins/_utilities.scss */
-.text-purple {
+.text-purplesass {
   --bs-text-opacity: 1;
-  color: rgba(var(--bs-purple-rgb), var(--bs-text-opacity)) !important;
+  color: rgba(var(--bs-purplesass-rgb), var(--bs-text-opacity)) !important;
 }
 
 /* line 67, ../Desafio SASS/Desafio-SASS/bootstrap-5.2.0-beta1/scss/mixins/_utilities.scss */
@@ -9962,9 +9962,9 @@ fieldset:disabled .btn {
 }
 
 /* line 67, ../Desafio SASS/Desafio-SASS/bootstrap-5.2.0-beta1/scss/mixins/_utilities.scss */
-.bg-purple {
+.bg-purplesass {
   --bs-bg-opacity: 1;
-  background-color: rgba(var(--bs-purple-rgb), var(--bs-bg-opacity)) !important;
+  background-color: rgba(var(--bs-purplesass-rgb), var(--bs-bg-opacity)) !important;
 }
 
 /* line 67, ../Desafio SASS/Desafio-SASS/bootstrap-5.2.0-beta1/scss/mixins/_utilities.scss */

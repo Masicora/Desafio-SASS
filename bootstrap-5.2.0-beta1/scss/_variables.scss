@@ -294,13 +294,13 @@ $warning: $yellow  !default;
 $danger: $red  !default;
 $light: $gray-100  !default;
 $dark: $gray-900  !default;
-$purple: #cf649a !default;
+$purplesass: #cf649a !default;
 // scss-docs-end theme-color-variables
 
 // scss-docs-start theme-colors-map
 $theme-colors: (
   "primary": $primary,
-  "purple": $purple,
+  "purplesass": $purplesass,
   "secondary": $secondary,
   "success": $success,
   "info": $info,

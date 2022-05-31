@@ -19,9 +19,9 @@
 }
 
 /* line 6, ../Desafio SASS/Desafio-SASS/bootstrap-5.2.0-beta1/scss/helpers/_color-bg.scss */
-.text-bg-purple {
-  color: #fff !important;
-  background-color: RGBA(111, 66, 193, var(--bs-bg-opacity, 1)) !important;
+.text-bg-purplesass {
+  color: #000 !important;
+  background-color: RGBA(207, 100, 154, var(--bs-bg-opacity, 1)) !important;
 }
 
 /* line 6, ../Desafio SASS/Desafio-SASS/bootstrap-5.2.0-beta1/scss/helpers/_color-bg.scss */
@@ -77,13 +77,13 @@
 }
 
 /* line 2, ../Desafio SASS/Desafio-SASS/bootstrap-5.2.0-beta1/scss/helpers/_colored-links.scss */
-.link-purple {
-  color: #6f42c1 !important;
+.link-purplesass {
+  color: #cf649a !important;
 }
 
 /* line 6, ../Desafio SASS/Desafio-SASS/bootstrap-5.2.0-beta1/scss/helpers/_colored-links.scss */
-.link-purple:hover, .link-purple:focus {
-  color: #59359a !important;
+.link-purplesass:hover, .link-purplesass:focus {
+  color: #d983ae !important;
 }
 
 /* line 2, ../Desafio SASS/Desafio-SASS/bootstrap-5.2.0-beta1/scss/helpers/_colored-links.scss */
@@ -680,9 +680,9 @@
 }
 
 /* line 67, ../Desafio SASS/Desafio-SASS/bootstrap-5.2.0-beta1/scss/mixins/_utilities.scss */
-.border-purple {
+.border-purplesass {
   --bs-border-opacity: 1;
-  border-color: rgba(var(--bs-purple-rgb), var(--bs-border-opacity)) !important;
+  border-color: rgba(var(--bs-purplesass-rgb), var(--bs-border-opacity)) !important;
 }
 
 /* line 67, ../Desafio SASS/Desafio-SASS/bootstrap-5.2.0-beta1/scss/mixins/_utilities.scss */
@@ -1754,9 +1754,9 @@
 }
 
 /* line 67, ../Desafio SASS/Desafio-SASS/bootstrap-5.2.0-beta1/scss/mixins/_utilities.scss */
-.text-purple {
+.text-purplesass {
   --bs-text-opacity: 1;
-  color: rgba(var(--bs-purple-rgb), var(--bs-text-opacity)) !important;
+  color: rgba(var(--bs-purplesass-rgb), var(--bs-text-opacity)) !important;
 }
 
 /* line 67, ../Desafio SASS/Desafio-SASS/bootstrap-5.2.0-beta1/scss/mixins/_utilities.scss */
@@ -1870,9 +1870,9 @@
 }
 
 /* line 67, ../Desafio SASS/Desafio-SASS/bootstrap-5.2.0-beta1/scss/mixins/_utilities.scss */
-.bg-purple {
+.bg-purplesass {
   --bs-bg-opacity: 1;
-  background-color: rgba(var(--bs-purple-rgb), var(--bs-bg-opacity)) !important;
+  background-color: rgba(var(--bs-purplesass-rgb), var(--bs-bg-opacity)) !important;
 }
 
 /* line 67, ../Desafio SASS/Desafio-SASS/bootstrap-5.2.0-beta1/scss/mixins/_utilities.scss */
