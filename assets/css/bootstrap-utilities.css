@@ -18,6 +18,12 @@
 }
 
 /* line 6, ../Desafio SASS/Desafio-SASS/bootstrap-5.2.0-beta1/scss/helpers/_color-bg.scss */
+.text-bg-purple {
+  color: #fff !important;
+  background-color: RGBA(111, 66, 193, var(--bs-bg-opacity, 1)) !important;
+}
+
+/* line 6, ../Desafio SASS/Desafio-SASS/bootstrap-5.2.0-beta1/scss/helpers/_color-bg.scss */
 .text-bg-secondary {
   color: #fff !important;
   background-color: RGBA(108, 117, 125, var(--bs-bg-opacity, 1)) !important;
@@ -67,6 +73,16 @@
 /* line 6, ../Desafio SASS/Desafio-SASS/bootstrap-5.2.0-beta1/scss/helpers/_colored-links.scss */
 .link-primary:hover, .link-primary:focus {
   color: #0a58ca !important;
+}
+
+/* line 2, ../Desafio SASS/Desafio-SASS/bootstrap-5.2.0-beta1/scss/helpers/_colored-links.scss */
+.link-purple {
+  color: #6f42c1 !important;
+}
+
+/* line 6, ../Desafio SASS/Desafio-SASS/bootstrap-5.2.0-beta1/scss/helpers/_colored-links.scss */
+.link-purple:hover, .link-purple:focus {
+  color: #59359a !important;
 }
 
 /* line 2, ../Desafio SASS/Desafio-SASS/bootstrap-5.2.0-beta1/scss/helpers/_colored-links.scss */
@@ -660,6 +676,12 @@
 .border-primary {
   --bs-border-opacity: 1;
   border-color: rgba(var(--bs-primary-rgb), var(--bs-border-opacity)) !important;
+}
+
+/* line 67, ../Desafio SASS/Desafio-SASS/bootstrap-5.2.0-beta1/scss/mixins/_utilities.scss */
+.border-purple {
+  --bs-border-opacity: 1;
+  border-color: rgba(var(--bs-purple-rgb), var(--bs-border-opacity)) !important;
 }
 
 /* line 67, ../Desafio SASS/Desafio-SASS/bootstrap-5.2.0-beta1/scss/mixins/_utilities.scss */
@@ -1731,6 +1753,12 @@
 }
 
 /* line 67, ../Desafio SASS/Desafio-SASS/bootstrap-5.2.0-beta1/scss/mixins/_utilities.scss */
+.text-purple {
+  --bs-text-opacity: 1;
+  color: rgba(var(--bs-purple-rgb), var(--bs-text-opacity)) !important;
+}
+
+/* line 67, ../Desafio SASS/Desafio-SASS/bootstrap-5.2.0-beta1/scss/mixins/_utilities.scss */
 .text-secondary {
   --bs-text-opacity: 1;
   color: rgba(var(--bs-secondary-rgb), var(--bs-text-opacity)) !important;
@@ -1838,6 +1866,12 @@
 .bg-primary {
   --bs-bg-opacity: 1;
   background-color: rgba(var(--bs-primary-rgb), var(--bs-bg-opacity)) !important;
+}
+
+/* line 67, ../Desafio SASS/Desafio-SASS/bootstrap-5.2.0-beta1/scss/mixins/_utilities.scss */
+.bg-purple {
+  --bs-bg-opacity: 1;
+  background-color: rgba(var(--bs-purple-rgb), var(--bs-bg-opacity)) !important;
 }
 
 /* line 67, ../Desafio SASS/Desafio-SASS/bootstrap-5.2.0-beta1/scss/mixins/_utilities.scss */
